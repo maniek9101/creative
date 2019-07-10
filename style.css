@@ -138,20 +138,7 @@
     background: url('assets/pan-xiaozhen-cEf2lvyhNAI-unsplash.jpg');
     background-size: cover;
 }
-/*#wrap-in-1::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 350px;
-    background: #fecc00;
-    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-    opacity: .5;
-    transform: translateX(-100%);
-    transition: all 1s;
-}
-*/
+
 #wrap-in-2
 {
     background: url('assets/ben-white-qDY9ahp0Mto-unsplash.jpg');
@@ -312,5 +299,21 @@ footer
     .shape-right
     {
         clip-path: none;
+    }
+    .wrap-content-box
+    {
+        font-size: 12px;
+    }
+    .wrap-content-box .left p:last-of-type
+    {
+        font-size: 24px;
+    }
+    .wrap-in-row-left
+    {
+        height: auto;
+    }
+    .wrap-in-row-right
+    {
+        height: auto;
     }
 }
