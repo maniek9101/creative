@@ -318,11 +318,13 @@ footer
     }
     .shape-left
     {
-        height: 200px;
+        height: 350px;
+        margin: 10px 0px;
     }
     .shape-right
     {
-        height: 200px;
+        height: 350px;
+        margin: 10px 0px;
     }
 }
 @media screen and (orientation:landscape) 
