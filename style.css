@@ -327,7 +327,7 @@ footer
         margin: 10px 0px;
     }
 }
-@media screen and (orientation:landscape) 
+@media only screen and (max-width: 768px) and (orientation:landscape)
 {
     .wrap-content-box
     {
