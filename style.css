@@ -279,3 +279,38 @@ footer
 .show{
     display: block;
 }
+@media only screen and (max-width: 768px)
+{
+    .wrap-bottom-small-box
+    {
+    width: 100%;
+    }
+    .wrap-bottom
+    {
+        flex-direction: column;
+    }
+    .wrap-content-box .right
+    {
+        display: none;
+    }
+    .wrap-in-row
+    {
+        flex-direction: column;
+    }
+    .wrap-in-row-left
+    {
+        width: 100%;
+    }
+    .wrap-in-row-right
+    {
+        width: 100%;
+    }
+    .shape-left
+    {
+        clip-path: none;
+    }
+    .shape-right
+    {
+        clip-path: none;
+    }
+}
