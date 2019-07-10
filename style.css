@@ -316,6 +316,14 @@ footer
     {
         height: auto;
     }
+    .shape-left
+    {
+        height: 200px;
+    }
+    .shape-right
+    {
+        height: 200px;
+    }
 }
 @media screen and (orientation:landscape) 
 {
